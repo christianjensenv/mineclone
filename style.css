@@ -1,4 +1,53 @@
 body {
-  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/03/12512/0729517a901dbcbe959a6ddaaea2a0fe-700.jpg");
-  background-color: #cccccc;
+  background: url(https://www.wallpaperup.com/uploads/wallpapers/2012/09/03/12512/0729517a901dbcbe959a6ddaaea2a0fe-700.jpg);
+}
+h1 {
+  font-size: 34px;
+}
+
+color {
+  color: gray;
+}
+.ui.inverted.mini.menu {
+  padding-right: 40px;
+  background-color: black;
+  box-shadow: none;
+  border: none;
+}
+
+.ui.item.menu {
+  font-size: 12px;
+  padding: 10px;
+  box-shadow: none;
+  border: none;
+  background: url("https://www.wallpaperup.com/uploads/wallpapers/2012/09/03/12512/0729517a901dbcbe959a6ddaaea2a0fe-700.jpg");
+}
+
+.murphys-background {
+  background: url("home-hero-1200x600.jpg");
+  background-size: cover;
+  height: 620px;
+  color: white;
+}
+
+.right.floated.center.aligned.hbtitle.column {
+  padding-top: 300px;
+}
+
+.ui.grid.footer {
+  background-color: #000000;
+  color: white;
+  position: absolute;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 0;
+}
+
+.massive.ui.green.button {
+ font-size: 20px;
+}
+
+.column.floated {
+  margin-left: 50px;
 }

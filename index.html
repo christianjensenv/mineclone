@@ -10,41 +10,77 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
-
-<div class="ui inverted mini top menu">
-  <div class="ui container">
+<div class="ui inverted mini borderless top menu">
     <a class="right item"> REDEEM CODE</a>
-  </div>
-  <a class="left item">SIGN IN</a>
+  <a class=" item">SIGN IN</a>
 </div>
 
-<div class="ui top menu">
+<div class="ui borderless inverted four item menu">
+
   <div class="ui container">
-    <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png"
-         width="200" alt="Minecraft Logo">
-    <i class="ui mini image">
-      <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-buy.gif">
-    </i>
-    <div class="text">GAMES</div>
-    <i class="ui mini image">
-      <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-realms--reversed.gif">
-    </i>
-    <div class="text">COMMUNITY</div>
-    <i class="ui mini image">
-      <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-store.gif">
-    </i>
-    <div class="text">MERCH</div>
-    <i class="ui mini image">
-      <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-support.gif">
-    </i>
-    <div class="text">SUPPORT</div>
+    <img class="ui image item"
+         src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png"
+         width="27%">
+    <div class="ui simple dropdown item">
+      <img
+          src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-buy--reversed.gif">
+      <div class="ui text">GAMES</div>
+      <i class="dropdown icon"></i>
+
+      <div class="menu">
+        <div class="item">MINECRAFT</div>
+        <div class="item">MINECRAFT DUNGEONS</div>
+      </div>
+    </div>
+    <div class="ui four item">
+      <img
+          src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-realms--reversed.gif">
+      <div class="text">COMMUNITY</div>
+      <img
+          src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-store--reversed.gif">
+      <div class="text">MERCH</div>
+      <img
+          src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/menu/menu-support--reversed.gif">
+      <div class="text">SUPPORT</div>
+    </div>
   </div>
 </div>
+</div>
 
-<img class="ui centered image"
-     src="https://media.mojang.com/blog-image/2c34ca1217c7d95e76a6f8d646adf9208f78145a/blogmcnet.png">
+<div class="murphys-background">
+  <div style="height: 500px" class="ui middle aligned grid container">
+    <div class="column floated">
+      <h1>WELCOME TO MINECRAFT</h1>
+      <h3>With new games, new updates, and new ways to play, join one</br>
+      of the biggest communities in gaming and start
+        crafting today!</h3>
+      <button class="massive ui green button">
+        GET MINECRAFT
+      </button>
+      <div class="column">
+      </div>
+    </div>
+  </div>
 
+  <div class="ui three column grid footer">
+    <div class="row">
+      <div class="center row">
+        <img
+            src="footer.PNG">
+      </div>
+    </div>
+    <div class="centered row">
+      Mojang © 2009-2020. "Minecraft" is a trademark of Mojang Synergies AB</br>
+      Terms and Conditions |
+      Brand and Assets Guidelines</br>
+    </div>
+    </iv>
+
+    <script>
+      $('.ui.dropdown')
+          .dropdown()
+      ;
+    </script>
 </body>
 </html>
